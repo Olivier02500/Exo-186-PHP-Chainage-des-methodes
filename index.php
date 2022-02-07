@@ -12,3 +12,10 @@
  *
  * 5. Utilisez le chaînage des méthodes pour mettre à jour le nom et le prix en une seule ligne.
  */
+
+require "./class/VODService.php";
+
+$vod = new VODService('rdm' , 0);
+
+$vod->setName('Primeflix')->setPrice(8.99);
+
